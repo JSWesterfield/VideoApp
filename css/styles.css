@@ -2,8 +2,10 @@
 #myHeader {
   color:royalblue;
   padding 20px; 
+  font-family: Trebuchet MS;
 }
 
 #localVideo {
-  height: 200px;
+  height: 100px;
+  width: 100px;
 }

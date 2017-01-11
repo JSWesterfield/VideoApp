@@ -6,7 +6,7 @@ function createVideoChat(videoID1,videoID2,chatRoomName){
     remoteVideosEl: videoID2,
     // immediately ask for camera access
     autoRequestMedia: true
-	});
+  });
   videoChat.on('readyToCall', function () {
     // you can name it anything
     videoChat.joinRoom(chatRoomName);

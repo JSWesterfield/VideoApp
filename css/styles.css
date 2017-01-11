@@ -2,10 +2,20 @@
 #myHeader {
   color:royalblue;
   padding 20px; 
-  font-family: Trebuchet MS;
+  font-family: Trebuchet;
+  background-color: white;
 }
 
 #localVideo {
   height: 100px;
   width: 100px;
+}
+
+#myText {
+	font-family: Trebuchet;
+  	color:royalblue;
+}
+
+#myBody {
+	background-color: lightgrey;
 }

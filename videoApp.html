@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Title of Video App</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Title of Video App</title>
+<!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+<!-- Regular CSS  stylesheet-->
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+ <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+ <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
+
+<div class="container-fluid">
+	<header class="main-header" role="banner">This is my Header!
+			<br>
+		<h1 id="myHeader"><span class="backgroundWhite">Welcome to our first Videochat  </span></h1>
+			<br>
+			<br>
+	</header>
+
 <body id="myBody">
-	<h1 id="myHeader">Welcome to our first Videochat</h1>
 
-	<img src="img/vidChat.png"" height="300" width="500">
+<!-- Nav Bar-->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img height="26.3px" src="http://cdn.toonvectors.com/images/2/4028/toonvectors-4028-140.jpg" alt="">
+        </a>
+      </div>
+<!--End oif Nav bar -->
 
-	<p id="myText">Enjoy Chatting!</p>
 
-	<img src="img/loveChat.jpg" width="300" height="300">
+
+	<img src="img/vidChat.png">
+
+	<p id="myText"><span class="backgroundWhite">Enjoy Chatting!</p>
+
+	</span><img class="chatPics" src="img/loveChat.jpg" width="400" height="400">
 
 	<video id="localVideo"></video>
 
 	<div id="remoteVideos"></div>
+<br>
+<br>
+	<div id=footerDiv>
+		<footer id="">VideoRama Video Chat © 2016-2017. Made with <span id="loveIcon"> ♥ </span>in Los Angeles. Powered by <strong>simpleWebRTC</strong>.</footer>
+	</div>
+</div>
 	<script src="js/VideoApp.js"></script>
 	<script src="https://simplewebrtc.com/latest-v2.js"></script> 
 </body>

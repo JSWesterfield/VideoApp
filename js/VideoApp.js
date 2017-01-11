@@ -13,4 +13,4 @@ function createVideoChat(videoID1,videoID2,chatRoomName){
   });
 }
 
-createVideoChat("localVideo", "remoteVideos", "myChatRoom")
+createVideoChat("localVideo", "remoteVideos", "myChatRoom");

@@ -6,9 +6,7 @@
 }
 
 #localVideo {
-  height: 100px;
-  width: 100px;
-  padding: 10px;
+  height: 200px;
 }
 
 .main-header {
@@ -36,8 +34,6 @@
 	font-family: arial;
   	color: blue;
   	font-size: 20px;
-/*the end of the transition */
-
 }
 
 #myBody {

@@ -1,3 +1,6 @@
+// Ignore below here ->
+
+
 function createVideoChat(videoID1,videoID2,chatRoomName){
   var videoChat = new SimpleWebRTC({
     // the id/element dom element that will hold "our" video
@@ -13,4 +16,4 @@ function createVideoChat(videoID1,videoID2,chatRoomName){
   });
 }
 
-createVideoChat("localVideo", "remoteVideos", "myChatRoom");
+createVideoChat("localVideo", "remoteVideos", "myChatRoom")

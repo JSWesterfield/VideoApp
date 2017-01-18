@@ -2,7 +2,8 @@
 
 [![N|Solid](http://static2.businessinsider.com/image/57b25ff3ce38f298008b6e4a-1200/duo%20in%20call.png)](https://nodesource.com/products/nsolid)
 
-This video Chat app is pulled from the RTC 
+This video Chat app makes use of Real-Time Computing and has the below software.
+ 
  -Written HTML& CSS
  -Built with simple Javascript
  -Powered by the _simpleWebRTC_ API
